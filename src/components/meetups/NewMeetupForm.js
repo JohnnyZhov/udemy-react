@@ -6,8 +6,7 @@ function NewMeetupForm() {
     <Card>
       <form className={classes.form}>
         <div className={classes.control}>
-          <label htmlFor="title">Meetup Title</label> //conect label to the
-          title for screenreaders
+          <label htmlFor="title">Meetup Title</label>
           <input type="text" required id="title"></input>
         </div>
         <div className={classes.control}>
@@ -20,8 +19,7 @@ function NewMeetupForm() {
         </div>
         <div className={classes.control}>
           <label htmlFor="description">Meetup description</label>
-          <textarea id="description" required rows="5"></textarea> //required
-          for in browser validation
+          <textarea id="description" required rows="5"></textarea>
         </div>
         <div className={classes.actions}>
           <button>Add Meetup</button>
